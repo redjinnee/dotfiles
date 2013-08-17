@@ -1,3 +1,7 @@
+"call pathogen#infect() 
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 if &term =~ "xterm" || &term =~ "xterm-xfree86"
   set t_Co=16
   set t_Sf=^[[3%dm   
