@@ -1,0 +1,19 @@
+[user]
+	name = Redjinne
+	email = redjinne@gmail.com
+	
+[alias]
+	st = status 
+	br = branch
+	ci = commit 
+	co = checkout
+	df = diff 
+	g = gre -I 
+	lg = log -p 
+	q = log --graph --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(bold white)— %an%C(reset)%C(bold yellow)%d%C(reset)' --abbrev-commit --date=relative
+	sm = show-merges 
+
+[color]
+	ui = auto 	
+	
+	
